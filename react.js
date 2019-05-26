@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    "@erictooth/esmodules",
+    "@erictooth/eslint-config/esmodules",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
     "prettier/react"
