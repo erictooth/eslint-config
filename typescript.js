@@ -4,5 +4,8 @@ module.exports = {
         ecmaVersion: 2018,
         sourceType: "module"
     },
-    extends: ["plugin:@typescript-eslint/recommended"]
+    extends: ["plugin:@typescript-eslint/recommended"],
+    rules: {
+        "@typescript-eslint/prefer-interface": "off"
+    }
 };
