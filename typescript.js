@@ -7,7 +7,7 @@ module.exports = {
     extends: ["plugin:@typescript-eslint/recommended", "prettier/@typescript-eslint"],
     rules: {
         "@typescript-eslint/prefer-interface": "off",
-        "@typescript/explicit-function-return-type": [
+        "@typescript-eslint/explicit-function-return-type": [
             "warn",
             {
                 allowExpressions: true,
