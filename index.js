@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ["eslint:recommended", "plugin:prettier/recommended"],
+  extends: [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/errors",
+  ],
   plugins: ["prettier"],
-  rules: { "prettier/prettier": "warn" }
+  rules: { "prettier/prettier": "warn" },
 };

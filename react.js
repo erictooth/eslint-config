@@ -1,23 +1,18 @@
 module.exports = {
-  extends: [
-    "@erictooth/eslint-config/esmodules",
-    "plugin:react/recommended",
-    "plugin:jsx-a11y/recommended",
-    "prettier/react"
-  ],
+  extends: ["plugin:react/recommended", "prettier/react"],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   settings: {
     react: {
-      version: "detect"
-    }
+      version: "detect",
+    },
   },
-  plugins: ["react", "react-hooks", "jsx-a11y"],
+  plugins: ["react", "react-hooks"],
   rules: {
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "error"
-  }
+    "react-hooks/exhaustive-deps": "error",
+  },
 };
