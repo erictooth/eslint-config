@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["plugin:react/recommended"],
+  extends: ["plugin:react/recommended", "plugin:react-hooks/recommended",],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -9,10 +9,5 @@ module.exports = {
     react: {
       version: "detect",
     },
-  },
-  plugins: ["react", "react-hooks"],
-  rules: {
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "error",
   },
 };
