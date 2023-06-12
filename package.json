@@ -1,18 +1,19 @@
 {
-  "name": "@erictooth/eslint-config",
-  "version": "8.0.0",
-  "description": "My personal eslint preferences",
-  "license": "UNLICENSED",
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5",
-    "@typescript-eslint/parser": "^5",
-    "eslint-config-prettier": "^8",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-jsx-a11y": "^6",
-    "eslint-plugin-react": "^7",
-    "eslint-plugin-react-hooks": "^4"
-  },
-  "peerDependencies": {
-    "eslint": "^8"
-  }
+	"name": "@erictooth/eslint-config",
+	"version": "9.0.0",
+	"license": "UNLICENSED",
+	"main": "index.js",
+	"dependencies": {
+		"@eslint/js": "^8.42.0",
+		"@typescript-eslint/eslint-plugin": "^5",
+		"@typescript-eslint/parser": "^5",
+		"eslint-config-prettier": "^8",
+		"eslint-plugin-jsx-a11y": "^6",
+		"eslint-plugin-perfectionist": "^1",
+		"eslint-plugin-react": "^7",
+		"eslint-plugin-react-hooks": "^4"
+	},
+	"peerDependencies": {
+		"eslint": ">=v8.23.0"
+	}
 }
